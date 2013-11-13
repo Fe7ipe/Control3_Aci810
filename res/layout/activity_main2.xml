@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="" />
+    
+    <Switch
+        android:id="@+id/switchView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:clickable="false" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp" >
+
+        <RadioButton
+            android:id="@+id/r0result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="@string/opciontext1" />
+
+        <RadioButton
+            android:id="@+id/r1result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="@string/opciontext2" />
+
+        <RadioButton
+            android:id="@+id/r2result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="@string/opciontext3" />
+       </RadioGroup>
+    
+     <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+ 		android:clickable="false"
+ 		android:longClickable="false"
+ 		android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_marginTop="40dp" />
+
+</LinearLayout>
